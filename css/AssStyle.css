@@ -506,7 +506,7 @@
   font-size:16px;
   text-align:left;
   margin-top:18px;
-  margin-left:29.5px;
+  margin-left:29px;
   position:absolute;
 }
 .contentbox1Text1
@@ -517,7 +517,7 @@
   text-align:left;
   margin-top:20px;
   position:absolute;
-  margin-left:29.5px;
+  margin-left:29px;
 }
 .contentbox1Text2
 {
@@ -556,7 +556,7 @@
   text-align:left;
   margin-top:20px;
   position:absolute;
-  margin-left:29.5px;
+  margin-left:29px;
   color:#4BAE4F;
 }
 .checkboximg
@@ -590,7 +590,7 @@
   background-color:#FFFFFF;
   margin-top:32px;
   margin-right:32px;
-  margin-left:29.5px;
+  margin-left:29px;
   position:absolute;
 }
 .group2
@@ -600,7 +600,7 @@
   background-color:#FFFFFF;
   margin-top:114px;
   margin-right:32px;
-  margin-left:29.5px;
+  margin-left:29px;
   position:absolute;
 }
 .group1
@@ -610,7 +610,7 @@
   background-color:#FFFFFF;
   margin-top:192px;
   margin-right:32px;
-  margin-left:29.5px;
+  margin-left:29px;
   position:absolute;
 }
 .progressText
@@ -627,7 +627,7 @@
   height:9px;
   background-color:#E1E2E6;
   border-radius:5px;
-  margin-left:170.5px;
+  margin-left:170px;
   margin-top:28px;
 }
 .SProgressbar1
