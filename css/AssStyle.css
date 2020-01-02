@@ -36,53 +36,50 @@
   }
 
   .headerdiv {
-    width: 143px;
-    height: 40px;
+    /* width: 143px; */
+    /* height: 40px; */
     float: right;
     margin-top: 10px;
     margin-top: 9px;
-    margin-right: 0px;
+    margin-right:24px;
   }
 
   .inbox {
     position: relative;
     float: left;
-    margin-top:5px;
-    border: 1px solid #384B59;
+    margin:7px 10px;
   }
 
   .setting {
-    margin-top: 10.41px;
-    margin-bottom: 9px;
-    margin-left: 31px;
+          margin:11px 12px 11px 11px;
   }
 
   .search {
-    margin-top: 11px;
-    margin-bottom: 11px;
-    margin-left: 21px;
+    margin:11px 12px 11px 11px
   }
-
+  .hoverbox
+  {
+    width:40px;
+    height:40px;
+    margin-top:1px;
+    /* margin-bottom:22px; */
+    margin-right:100px;
+    float:right;
+  }
   .circle {
     position: absolute;
-    bottom: 9px;
-    left: 11px;
+    bottom: 13px;
+    right:2px;
     height: 19px;
     width: 19px;
     background-color: #FE5621;
     border-radius: 50%;
     z-index: 1;
   }
-  .hoverclass
+  .hoverbox:hover
   {
-    /* float: right; */
-    height:40px;
-    width:40px;
-    /* opacity:0.7; */
-  }
-  .hoverclass:hover
-  {
-     opacity:0.7;
+    background-color:#E9E9E91A;
+    opacity:;
   }
   .text6 {
     font-family: 'Lato', sans-serif;
