@@ -7,11 +7,9 @@
     margin: auto;
     background-color: #EBECF2;
     /* padding-top: 60px; */
-    /* padding-bottom:40px; */
   }
   header {
-      
-    height: 60px;
+      height: 60px;
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -274,8 +272,9 @@
     font-weight: 500px;
     font-size: 32px;
     color: #E1E2E9;
-    text-align: right;
+    /* text-align: right; */
     float:right;
+    margin-right:21px;
   }
 
   /* Milestone end here 
