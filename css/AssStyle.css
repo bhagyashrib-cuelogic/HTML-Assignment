@@ -6,11 +6,11 @@
     width: 1200px;
     margin: auto;
     background-color: #EBECF2;
-    padding-top: 60px;
+    /* padding-top: 60px; */
+    /* padding-bottom:40px; */
   }
-
   header {
-    width: inherit;
+      
     height: 60px;
     position: fixed;
     top: 0;
@@ -19,8 +19,8 @@
   }
 
   .logo {
-    max-width: 171px;
-    height: 41px;
+    /* max-width: 171px; */
+    /* height: 41px; */
     margin-top: 9px;
     margin-left: 24px;
     margin-bottom: 10px;
@@ -37,7 +37,7 @@
 
   .headerdiv {
     /* width: 143px; */
-    /* height: 40px; */
+    /* /* height: 40px; * */
     float: right;
     margin-top: 10px;
     margin-top: 9px;
@@ -93,7 +93,7 @@
   .statsbar {
     width: 1152px;
     /*height:165px;*/
-    margin: 43px 24px;
+    margin:63px 24px;
   }
 
   .commontext {
@@ -265,6 +265,8 @@
     font-size: 18px;
     margin: 0 auto;
     color: #363F45;
+    line-height: 59px;
+    vertical-align: middle
   }
 
   .number {
@@ -273,6 +275,7 @@
     font-size: 32px;
     color: #E1E2E9;
     text-align: right;
+    float:right;
   }
 
   /* Milestone end here 
