@@ -6,9 +6,10 @@
     width: 1200px;
     margin: auto;
     background-color: #EBECF2;
-    /* padding-top: 60px; */
+    padding-top: 60px;
   }
   header {
+    width: inherit;
       height: 60px;
     position: fixed;
     top: 0;
