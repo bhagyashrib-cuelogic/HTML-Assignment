@@ -23,7 +23,11 @@
     padding-top: 5px;
     display:inline-block;
   }
-
+  header a
+  {
+    display: inline-block;
+    vertical-align: middle;
+  }
   section {
     padding-top: 103px;
     background-color: #EBECF2;
@@ -37,7 +41,6 @@
 
   .Img2 {
     margin-left:55px;
-    margin-bottom:8px;
   }
   .ul1
   {
@@ -56,19 +59,24 @@
   .hoverbox {
     width: 40px;
     height: 40px;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-top: 9px;
+    margin-right:10px;
     text-align: center;
-    padding:11px 12px 11px 11px;
+    line-height:40px;
   }
 
   .circle {
     position: absolute;
-    top:0px;
-    right:6px;
+    bottom:21px;
+    right:2px;
     height: 19px;
     width: 19px;
     background-color: #FE5621;
     border-radius: 50%;
     z-index: 1;
+    text-align: center;
   }
 
   .hoverbox:hover {
@@ -76,11 +84,12 @@
   }
 
   .text6 {
-    height: 8px;
-    width: 17px;
-    margin-top: 1px;
+    font-size:14px;
+    height:8px;
+    width:14px;
     color: #ffffff;
-    text-align: center;
+    margin-top:-12px;
+    margin-left:2px;
   }
 
   .statsbar {
@@ -326,11 +335,11 @@
     background-color: #ffffff;
   }
 
-  ul {
+  .ul2 {
     list-style-type: none;
   }
 
-  li {
+  .li2 {
     margin-top: 1px;
     padding: 13px 25px;
     display: inline-block;
@@ -374,6 +383,7 @@
     margin-left: 99px;
     max-width: 80px;
     min-width: 80px;
+    font-size:13px;
     color: #919599;
   }
 
@@ -494,6 +504,7 @@
     color: #9CAAB4;
     margin-right: 24px;
     margin-top: 15px;
+    font-size:11px;
   }
 
   .milstoneimg {
