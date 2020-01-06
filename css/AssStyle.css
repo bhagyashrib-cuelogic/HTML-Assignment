@@ -1,6 +1,12 @@
   * {
     box-sizing: border-box;
   }
+  body
+  {
+    font-family:'Lato',sans-serif;
+    font-size:16px;
+    font-weight:400;
+  }
 
   .container {
     width: 1200px;
@@ -15,9 +21,10 @@
     z-index: 1000;
     background-color: #384B59;
     padding-top: 5px;
+    display:inline-block;
   }
 
-  .sec1 {
+  section {
     padding-top: 103px;
     background-color: #EBECF2;
     padding-bottom: 111px;
@@ -25,40 +32,38 @@
 
   .logo {
     margin-left: 24px;
+
   }
 
   .Img2 {
-    margin-top: 12px;
-    margin-left: 55px;
+    margin-left:55px;
+    margin-bottom:8px;
   }
-
-  .headerdiv {
-    float: right;
-    margin-right:24px;
-    margin-top:px;
+  .ul1
+  {
+    list-style-type:none;
+    float:right;
+  }
+  .li1
+  {
+    background-color:#384B59;
+    display:inline-block;
   }
 
   .inbox {
     position: relative;
-    float: left;
-  margin:6px 0px 0px 11px;
   }
-
   .hoverbox {
     width: 40px;
     height: 40px;
-    margin-bottom:5px;
-    margin-right: 105px;
-    vertical-align: 40px;
     text-align: center;
-    float: right;
-    padding:2px;
+    padding:11px 12px 11px 11px;
   }
 
   .circle {
     position: absolute;
-    bottom: 14px;
-    left: 8px;
+    top:0px;
+    right:6px;
     height: 19px;
     width: 19px;
     background-color: #FE5621;
@@ -71,7 +76,6 @@
   }
 
   .text6 {
-    font-family: 'Lato', sans-serif;
     height: 8px;
     width: 17px;
     margin-top: 1px;
@@ -81,7 +85,7 @@
 
   .statsbar {
     width: 1152px;
-    margin: 43px 24px;
+    margin:0px 24px;
   }
 
   .commontext {
@@ -104,7 +108,25 @@
     width: 270px;
     float: left;
   }
-
+  .rect1
+  {
+    background-color: #FEC006;
+  }
+  .rect2
+  {
+    background-color:#E81D62; 
+    margin-left:24px;
+  }
+  .rect3
+  {
+    background-color: #8AC249;
+    margin-left:24px;
+  }
+  .rect4
+  {
+    background-color: #2095F2; 
+    float:right;
+  }
   .imgset {
     margin: 0 auto;
     vertical-align: middle;
@@ -130,16 +152,18 @@
     text-align: left;
     color: #363F45;
   }
-
+  .num
+  {
+    font-size:30px;
+    color:#ffffff
+  }
   .dots {
     float: right;
-    margin: 2px 12px;
+    margin: 0px 12px;
   }
 
   .dot {
-    width: 4px;
     float: right;
-    margin-top: 4px;
   }
 
   /* milestone css end here */
@@ -182,6 +206,7 @@
     text-align: center;
     background-color: #ffffff;
     margin-top: 1px;
+    position:relative;
   }
 
   .marginbox {
@@ -241,8 +266,9 @@
   .number {
     font-size: 32px;
     color: #E1E2E9;
-    float: right;
-    margin-right: 21px;
+    position:absolute;
+    bottom:2px;
+    right:18px;
   } /* Milestone end here */
 
   /* big progressbar start here  */
@@ -252,7 +278,6 @@
     max-width: 1152px;
     height: 9px;
     border-radius: 5px;
-    border: 0.2 solid;
     background-color: #f5f5f5;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -323,17 +348,12 @@
   }
 
   .checkboximg {
-    max-width: 14px;
-    height: 18px;
-    /* border: 1px solid #CED4D9; */
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
   }
 
   .contentbox1Text1 {
-    font-family: 'Lato', sans-sarif;
-    font-weight: 400;
     font-size: 14px;
     text-align: left;
     min-width: 290px;
@@ -444,7 +464,6 @@
 
   .arrowboxtext {
     color: #FFFFFF;
-    font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 12px;
   }
@@ -471,17 +490,14 @@
   }
 
   .footertext {
-    font-family: 'Lato' sans-serif;
-    font-weight: 400;
     float: right;
     color: #9CAAB4;
-    font-size: 16px;
     margin-right: 24px;
     margin-top: 15px;
   }
 
   .milstoneimg {
-    width: 10px;
+    width: 10px; 
     height: 18px;
     margin-top: 1px;
     float: right;
