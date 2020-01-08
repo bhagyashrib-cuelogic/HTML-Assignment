@@ -36,11 +36,13 @@
 
   .logo {
     margin-left: 24px;
+    vertical-align: middle;
 
   }
 
   .Img2 {
     margin-left:55px;
+    vertical-align:middle;
   }
   .ul1
   {
@@ -59,9 +61,8 @@
   .hoverbox {
     width: 40px;
     height: 40px;
-    margin: 0 auto;
     vertical-align: middle;
-    margin-top: 9px;
+    line-height: 40px;
     margin-right:10px;
     text-align: center;
     line-height:40px;
@@ -103,7 +104,6 @@
     font-size:16px;
     color: #363F45;
   }
-
   .commonbox {
     margin-top: 36px;
   }
@@ -521,6 +521,6 @@
     height: 18px;
     margin-top: 1px;
     float: right;
-    margin-right: 0px;
-    margin: 1px 37px 1px 0px;
+    /* margin-right: 0px; */
+    margin: 1px 36px 1px 0px;
   }
